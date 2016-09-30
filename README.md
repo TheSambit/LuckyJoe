@@ -10,11 +10,13 @@ Go to the project directory and hit sbt. Once you are within sbt:
 - to run with n=8 and k=5: `run 8 5`
 - to test: `test`
 
-# Here are the test results:
-JosephusSolutionSpec:
+## Test Results:
+For this, I used [ScalaTest](http://www.scalatest.org/) and here are the test results.
 
-JoshphusSolution Main App
-=========================
+###JosephusSolutionSpec:
+
+#### JoshphusSolution Main App
+
 - should show usage for no-args
 - should show usage for insufficient args=1
 - should show usage for more than 2 args
@@ -22,8 +24,7 @@ JoshphusSolution Main App
 - should show usage for n < 1
 - should show usage for k < 1
 
-findSafePosition function
-=========================
+#### findSafePosition function
 - should work for lower bound inputs 1 and 1
 - should work for n=100,000,000, k=1
 - should work for n=1000,000, k=2
@@ -34,9 +35,14 @@ findSafePosition function
 - should return 3 for input 3 and 2
 
 Run completed in 1 second, 878 milliseconds.
+
 Total number of tests run: 14
+
 Suites: completed 1, aborted 0
+
 Tests: succeeded 14, failed 0, canceled 0, ignored 0, pending 0
+
 All tests passed.
+
 [success] Total time: 7 s, completed Sep 30, 2016 12:05:13 AM
 
