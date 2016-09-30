@@ -1,6 +1,6 @@
 # Josephus problem in Scala
 
-To run the program, follow the following steps.
+To run the program, follow the following steps. 
 
 You must have Java 1.8, Scala 2.11.8 and SBT 0.13 installed in your environment.
 
